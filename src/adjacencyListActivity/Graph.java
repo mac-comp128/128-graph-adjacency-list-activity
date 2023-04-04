@@ -132,7 +132,7 @@ public class Graph {
      */
     public int V() {
         // TODO: Return the number of vertices in this graph
-
+        return 0; // fix me
     }
 
     /**
@@ -142,7 +142,7 @@ public class Graph {
      */
     public int E() {
         // TODO: Return the number of edges in this graph
-
+        return 0; // fix me
     }
 
     // throw an IllegalArgumentException unless {@code 0 <= v < V}
@@ -176,7 +176,7 @@ public class Graph {
      */
     public Iterable<Integer> adj(int v) {
         // TODO: Return the vertices adjacent to vertex v. Make sure that v exists
-
+        return null; // fix me
     }
 
     /**
@@ -188,7 +188,7 @@ public class Graph {
      */
     public int degree(int v) {
         // TODO: Return the degree of vertex v. Make sure that v exists
- 
+        return 0; // fix me
     }
 
 

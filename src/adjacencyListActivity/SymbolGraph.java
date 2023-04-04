@@ -132,8 +132,7 @@ public class SymbolGraph {
      * @param args the command-line arguments
      */
     public static void main(String[] args) throws FileNotFoundException  {
-    //TODO: Replace the filename with the path to routes.txt file
-        SymbolGraph sg = new SymbolGraph("routes.txt", " ");
+        SymbolGraph sg = new SymbolGraph(SymbolGraph.class.getResource("/routes.txt").getPath(), " ");
         Graph graph = sg.graph();
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter an airport code:");
